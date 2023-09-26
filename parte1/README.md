@@ -45,7 +45,8 @@ GET http://localhost:8080/resumen/{{fecha}}?day={{dia}}
 
 "compraMasAlta":500
 
-}```
+}
+```
 
   
   
