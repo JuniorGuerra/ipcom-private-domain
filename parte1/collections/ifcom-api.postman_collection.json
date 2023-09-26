@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "d8e213ad-69aa-41c6-8be3-9596de73717a",
+		"name": "ifcom-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16330645"
+	},
+	"item": [
+		{
+			"name": "compras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://apirecruit-gjvkhl2c6a-uc.a.run.app/compras/2019-12-01",
+					"protocol": "https",
+					"host": [
+						"apirecruit-gjvkhl2c6a-uc",
+						"a",
+						"run",
+						"app"
+					],
+					"path": [
+						"compras",
+						"2019-12-01"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resumen",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/resumen/2019-07-01?dia=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"resumen",
+						"2019-07-01"
+					],
+					"query": [
+						{
+							"key": "dia",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
