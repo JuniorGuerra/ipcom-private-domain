@@ -29,7 +29,8 @@ GET http://localhost:8080/resumen/{{fecha}}?day={{dia}}
 | `dia` | `string` | Dia es un queryParam ?day= |
 
   
-```{
+```
+{
 
 "total": 12001.00,
 
